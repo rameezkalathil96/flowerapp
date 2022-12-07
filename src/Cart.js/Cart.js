@@ -15,19 +15,11 @@ const Cart = () => {
   return (
     <div className={classes.cartbgcolor}>
       <span className={classes.headingShop}>Shopping cart</span>
-      <div className={classes.field}>
+      <div className={`card ${classes.field}`}>
         <div className={classes.button}>
           <Button classbutton={classes.classbutton} button_name="PLACE ORDER" />
         </div>
-      
-
-
-
-
-
-
       </div>
-
     </div>
   );
 }
