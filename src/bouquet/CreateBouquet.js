@@ -5,6 +5,8 @@ import Card from "./Card";
 import { motion } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import "../App.css";
+import { MdOutlineArrowBackIosNew } from 'react-icons/md';
+
 
 const CreateBouquet = () => {
   const [widthh, setWidth] = useState(0);
@@ -43,13 +45,15 @@ const CreateBouquet = () => {
     <div>
       <div className={classes.mainDiv}>
         <div className={classes.TopImage}>
-          
+          <div className={classes.backBtnDiv}>
+          <button className={classes.backBtn}><span className={classes.backIcon}><MdOutlineArrowBackIosNew/></span></button>
+          </div>
         </div>
         <div className={`card ${classes.crd}`}>
           <div className={classes.btnDiv}>
-            <button className={`btn ${classes.custBtn}`}>Small Box</button>
+            <button className={`btn ${classes.custBtn}`}><b>Small Box</b></button>
             &emsp;&nbsp;
-            <button className={`btn ${classes.custBtn2}`}>Big Box</button>
+            <button className={`btn ${classes.custBtn2}`}><b>Big Box</b></button>
           </div>
           <div className={classes.contentBox}>
             <span className={classes.head}>Soft Pink Box</span>
@@ -62,8 +66,6 @@ const CreateBouquet = () => {
               Subtile but refined. A beautiful bouquet made with love by our
               experienced florists.
             </p>
-            <br />
-            <br />
             <span className={classes.title}>Includes</span>
             <div className={classes.dis}>
               <motion.div
@@ -73,7 +75,7 @@ const CreateBouquet = () => {
                 // customRightArrow={<CustomRightArrow />}
               >
                 <motion.div
-                  drag="x"
+                  // drag="x"
                   // onDrag={detectPaginationGesture}
                   dragConstraints={{ right: 0, left: -widthh }}
                   className="inner-carousel"

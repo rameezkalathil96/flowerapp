@@ -2,7 +2,7 @@
     width: 390pt;
     height: 422pt;
     background-image: url("../assets/Bouquet/MaskGroup.png");
-    background-repeat: no-repeat;
+   background-size: cover;
 
 }
 .mainDiv{
@@ -108,6 +108,7 @@ height: 124pt;
     color: #EFC1A2;
     height: 27pt;
     width: 27pt;
+    margin-top: -10px;
 }
 .decrement:hover{
     background-color: #1E1E1E;
@@ -115,10 +116,28 @@ height: 124pt;
 }
 .count{
     color: #1E1E1E;
+    padding-top: 10px;
 }
 .innerDiv{
     padding-top: 7px;
 }
 .content{
     padding-right: 17px;
+    font-family:SF Compact Display ;
+}
+.backBtn{
+    height: 24pt;
+    width: 20pt;
+    background-color: #EFC1A2;
+    border-radius: 5px;
+    border: 0;
+}
+.backBtnDiv{
+    padding-left: 30px;
+    padding-top: 57px;
+}
+.backIcon{
+   /* font-size: 25px; */
+   font-weight: bolder;
+   /* margin-right: 30px; */
 }

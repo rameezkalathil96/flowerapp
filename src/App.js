@@ -7,7 +7,7 @@ import CreateBouquet from './bouquet/CreateBouquet';
 function App() {
   return (
     <div>
-    <Home/>
+    {/* <Home/> */}
     <CreateBouquet/>
     {/* <Cart/> */}
     </div>
