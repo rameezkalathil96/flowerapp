@@ -8,8 +8,8 @@ import CreateBouquet from './bouquet/CreateBouquet';
 function App() {
   return (
     <div>
-    <CreateBouquet/>
-    <Cart/>
+    {/* <CreateBouquet/> */}
+    {/* <Cart/> */}
     {/* <Cart/> */}
     <BrowserRouter>
         <Routes>
