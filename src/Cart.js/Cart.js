@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from "./Button";
 import classes from "./cart.module.css";
 import MaskGroup3x from "../assets/cartimage/Mask Group 2/MaskGroup3x.png";
-import { QuantityPicker } from "react-qty-picker";
+
 
 
 const Cart = () => {
