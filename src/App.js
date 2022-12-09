@@ -1,11 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 import Cart from './Cart.js/Cart';
+import Welcome from "./Welcome/Welcome";
+import Login from "./Login/Login";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
-    <Cart/>
+    {/* <Cart/> */}
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Welcome />} />
+          <Route path="/Login" element={<Login />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

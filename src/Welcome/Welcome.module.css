@@ -1,0 +1,44 @@
+.background {
+  background-image: url(../Image/Mask-Group-27.png);
+  position: relative;
+  width: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 969px;
+}
+.content {
+  height: 378px;
+  /* margin: 0 auto 2%; */
+  padding: 8rem 0;
+}
+.welcome {
+  width: 500px;
+  margin: auto;
+}
+.text {
+  color: #ffffff;
+  width: 197px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.contentAlign {
+  padding-left: 49.24px;
+}
+.spaces {
+  padding: 0.4rem 0;
+  color: #efc1a2;
+  font-size: 40px;
+}
+.icon {
+  font-size: 85px;
+  cursor: pointer;
+  color: #1e1e1e;
+  background-color: #efc1a2;
+  border-radius: 11px;
+}
+.iconAlign {
+  width: 93%;
+  display: flex;
+  justify-content: right;
+  padding-top: 410px;
+}

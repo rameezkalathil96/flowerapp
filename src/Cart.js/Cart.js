@@ -1,17 +1,11 @@
-import React from 'react';
-import Button from './Button';
-import classes from './cart.module.css';
+import React from "react";
+import Button from "./Button";
+import classes from "./cart.module.css";
 // import img from '../public/assets/cartimage/Mask Group 2/Mask Group 2.png'
 
 // import VueEcommerceCard from "vue-ecommerce-card";
 
-
-
-
 const Cart = () => {
-
-
-
   return (
     <div className={classes.cartbgcolor}>
       <span className={classes.headingShop}>Shopping cart</span>
@@ -22,6 +16,6 @@ const Cart = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Cart
+export default Cart;
