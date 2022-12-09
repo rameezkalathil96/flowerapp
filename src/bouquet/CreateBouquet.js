@@ -1,5 +1,5 @@
 import React from "react";
-import MaskGroup from "../assets/Bouquet/MaskGroup.jpg";
+import MaskGroup from "../assets/Bouquet/MaskGroup.png";
 import classes from "./CreateBouquet.module.css";
 import Card from "./Card";
 import { motion } from "framer-motion";
@@ -42,8 +42,8 @@ const CreateBouquet = () => {
   return (
     <div>
       <div className={classes.mainDiv}>
-        <div>
-          <img src={MaskGroup} className={classes.TopImage} />
+        <div className={classes.TopImage}>
+          
         </div>
         <div className={`card ${classes.crd}`}>
           <div className={classes.btnDiv}>
@@ -57,11 +57,11 @@ const CreateBouquet = () => {
             <span className={classes.subHead}>100 SAR</span>
             <br />
             <br />
-            <span>
+            <p className={classes.content}>
               Soft colours with a very feminine touch. Delicate but elegant.
               Subtile but refined. A beautiful bouquet made with love by our
               experienced florists.
-            </span>
+            </p>
             <br />
             <br />
             <span className={classes.title}>Includes</span>

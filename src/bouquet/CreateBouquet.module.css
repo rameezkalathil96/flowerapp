@@ -1,9 +1,12 @@
 .TopImage{
     width: 390pt;
     height: 422pt;
-    
+    background-image: url("../assets/Bouquet/MaskGroup.png");
+    background-repeat: no-repeat;
+
 }
 .mainDiv{
+    margin: auto;
     width: 390pt;
     height: 844pt;
 }
@@ -46,7 +49,7 @@
 }
 .head{
     font-size: 20pt;
-    font-family: 'Arial, Helvetica, sans-serif';
+    font-family:SF Compact Display;
     color: black;
     font-weight: 700;
 }
@@ -68,6 +71,8 @@
 }
 .dis{
     overflow: hidden;
+    padding-top: 41px;
+    margin-left: -22pt;
 }
 .cardImg{
     width: 77pt;
@@ -113,4 +118,7 @@ height: 124pt;
 }
 .innerDiv{
     padding-top: 7px;
+}
+.content{
+    padding-right: 17px;
 }

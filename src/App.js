@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
     <CreateBouquet/>
-    <Cart/>
+    {/* <Cart/> */}
     </div>
   );
 }
