@@ -6,11 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  max-width: 390px;
+  /* max-width: 390px;
   margin: auto;
   background: white;
-  padding: 10px;
-font-family:SF Compact Display ;
+  padding: 10px; */
+
+  /* padding: 10px;
+font-family:SF Compact Display ; */
 }
 
 code {
