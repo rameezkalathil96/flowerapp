@@ -21,6 +21,7 @@
 .classbutton {
   color: #1e1e1e;
   background-color: #efc1a2;
+  position: fixed;
   width: 318px;
   height: 46px;
   /* padding-top: 746px; */
@@ -29,6 +30,7 @@
   border-radius: 6px;
   border-color: white;
   border: 1px solid #efc1a2;
+  bottom: 75px;
 
   /* margin-top: 10px; */
 }
@@ -97,6 +99,8 @@ margin-left: 30px;
 
 }
 .billprice{
+ /* align-items: left; */
+ /* align-content: righ; */
   /* margin-right: 20px; */
 }
 
@@ -118,4 +122,8 @@ margin-left: 30px;
 }
 .billprice{
   margin-left: 200px;
+}
+.totalprice{
+  margin-left: 220px;
+
 }
