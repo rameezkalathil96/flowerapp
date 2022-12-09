@@ -1,20 +1,24 @@
+.welcome {
+  /* width: 500px; */
+  width: 390px;
+  /* height: 844px; */
+  margin: auto;
+}
 .background {
   background-image: url(../Image/Mask-Group-27.png);
   position: relative;
   width: 100%;
-  background-position: 50% 50%;
+  background-position: 30% 70%;
   background-size: cover;
-  height: 969px;
+  /* height: 970px; */
+  height: 844px;
 }
 .content {
   height: 378px;
   /* margin: 0 auto 2%; */
   padding: 8rem 0;
 }
-.welcome {
-  width: 500px;
-  margin: auto;
-}
+
 .text {
   color: #ffffff;
   width: 197px;
@@ -40,5 +44,6 @@
   width: 93%;
   display: flex;
   justify-content: right;
-  padding-top: 410px;
+  padding-top: 350px;
+  /* padding-top: 410px; */
 }
