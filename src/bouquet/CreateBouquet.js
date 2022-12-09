@@ -1,10 +1,12 @@
 import React from "react";
-import MaskGroup from "../assets/Bouquet/MaskGroup.jpg";
+import MaskGroup from "../assets/Bouquet/MaskGroup.png";
 import classes from "./CreateBouquet.module.css";
 import Card from "./Card";
 import { motion } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import "../App.css";
+import { MdOutlineArrowBackIosNew } from 'react-icons/md';
+
 
 const CreateBouquet = () => {
   const [widthh, setWidth] = useState(0);
@@ -42,14 +44,16 @@ const CreateBouquet = () => {
   return (
     <div>
       <div className={classes.mainDiv}>
-        <div>
-          <img src={MaskGroup} className={classes.TopImage} />
+        <div className={classes.TopImage}>
+          <div className={classes.backBtnDiv}>
+          <button className={classes.backBtn}><span className={classes.backIcon}><MdOutlineArrowBackIosNew/></span></button>
+          </div>
         </div>
         <div className={`card ${classes.crd}`}>
           <div className={classes.btnDiv}>
-            <button className={`btn ${classes.custBtn}`}>Small Box</button>
+            <button className={`btn ${classes.custBtn}`}><b>Small Box</b></button>
             &emsp;&nbsp;
-            <button className={`btn ${classes.custBtn2}`}>Big Box</button>
+            <button className={`btn ${classes.custBtn2}`}><b>Big Box</b></button>
           </div>
           <div className={classes.contentBox}>
             <span className={classes.head}>Soft Pink Box</span>
@@ -57,13 +61,11 @@ const CreateBouquet = () => {
             <span className={classes.subHead}>100 SAR</span>
             <br />
             <br />
-            <span>
+            <p className={classes.content}>
               Soft colours with a very feminine touch. Delicate but elegant.
               Subtile but refined. A beautiful bouquet made with love by our
               experienced florists.
-            </span>
-            <br />
-            <br />
+            </p>
             <span className={classes.title}>Includes</span>
             <div className={classes.dis}>
               <motion.div
@@ -73,7 +75,7 @@ const CreateBouquet = () => {
                 // customRightArrow={<CustomRightArrow />}
               >
                 <motion.div
-                  drag="x"
+                  // drag="x"
                   // onDrag={detectPaginationGesture}
                   dragConstraints={{ right: 0, left: -widthh }}
                   className="inner-carousel"
