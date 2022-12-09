@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Cart from './Cart.js/Cart';
+import Home from './Component/Home';
 
 function App() {
   return (
     <div>
-    <Cart/>
+    <Home/>
     </div>
   );
 }
