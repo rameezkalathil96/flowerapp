@@ -1,45 +1,121 @@
-.cartbgcolor{
-
-
-  background-color:#1E1E1E ;
-  height: 400px;
+.cartbgcolor {
+  background-color: #1e1e1e;
+  height: 224px;
 }
-.headingShop{
+.headingShop {
   font-size: 24px;
-display: flex;
-padding-top: 61px;
+  display: flex;
+  padding-top: 61px;
   margin-left: 120px;
-  color:#EFC1A2;
+  color: #efc1a2;
 }
-.field{
-background-color: white;
-/* width: 100%; */
-/* left:30px; */
-height: 400px;
-/* border-radius: 30px; */
-border-top-left-radius: 30px;
-border-top-right-radius: 30px;
-
+.field {
+  background-color: white;
+  /* width: 100%; */
+  /* left:30px; */
+  height: 744px;
+  /* border-radius: 30px; */
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
-.classbutton{
-color: #1E1E1E;
-background-color: #EFC1A2;
-width: 318px;
-height: 46px;
-/* padding-top: 746px; */
+.classbutton {
+  color: #1e1e1e;
+  background-color: #efc1a2;
+  width: 318px;
+  height: 46px;
+  /* padding-top: 746px; */
   margin-left: 26px;
   font-size: 18px;
   border-radius: 6px;
   border-color: white;
-
+  border: 1px solid #efc1a2;
 
   /* margin-top: 10px; */
-
-
-
 }
-.cardtitle{
+.cardtitle {
   width: 80px;
   height: 21px;
   font-size: 18px;
+  /* font-weight: normal; */
+
+}
+.paragraph {
+  /* font-weight: lighter; */
+  /* padding: 20px; */
+  line-height:14px;
+  color: #7B7B7B;
+  font-size: 12px;
+ 
+}
+.cardbody {
+  margin-top: 36px;
+}
+.img {
+  margin-left: 26px;
+  /* margin-top: 36px; */
+}
+.discBody {
+  margin-top: -20px;
+  /* margin-right: 8px; */
+
+  margin-left: -10px;
+}
+.qty{
+  background-color: red;
+}
+.qtyfield{
+  width: 10px;
+}
+.incrmntbtn{
+  /* margin-left: 4px;
+   */
+   /* margin-right: -50px; */
+/* margin-right:-50px;
+ */
+ margin-top: 8px;
+ /* margin-right: 10px; */
+margin-left: -16px;
+/* padding-left: 8px; */
+width: 80px;
+max-height: 30px;
+}
+
+.hr{
+  width: 300px;
+
+}
+
+.price{
+  font-size: 14px;
+  margin-left: -16px;
+
+}
+.bill{
+
+font-size: 14px;
+margin-left: 30px;
+
+}
+.billprice{
+  /* margin-right: 20px; */
+}
+
+.buttonforqty{
+  margin-left: -25px;
+    padding-top: 1px;
+      height: 29px;
+
+    
+
+}
+.qtyresult{
+  padding-top: 2px;
+  /* margin-bottom: 8px; */
+}
+.buttonforqty1{
+  padding-top: 0px;
+  height: 29px;
+}
+.billprice{
+  margin-left: 200px;
 }
