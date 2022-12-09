@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from "./Button";
 import classes from "./cart.module.css";
 import MaskGroup3x from "../assets/cartimage/Mask Group 2/MaskGroup3x.png";
-import { QuantityPicker } from "react-qty-picker";
+
 
 
 const Cart = () => {
@@ -78,33 +78,37 @@ const Cart = () => {
           {" "}
           <hr className={`hr ${classes.hr}`} />
         </center>
-
         <div>
           <span className={classes.bill}>Subtotal</span>{" "}
-          <span className={classes.billprice}>Subtotal</span>
+          <span className={classes.billprice}>
+            <b>350 SAR</b>
+          </span>
         </div>
         <br></br>
         <div>
           <span className={classes.bill}>Delivery</span>
-          <span className={classes.billprice}>Subtotal</span>
+          <span className={classes.billprice}>
+            <b>50 SAR</b>
+          </span>
         </div>
-
         <center>
           {" "}
           <hr className={`hr ${classes.hr}`} />
         </center>
         <div>
           {" "}
-          <span style={{ fontWeight: "medium" }} className={classes.bill}>
-            Total
+          <span className={classes.bill}>
+            <b>Total</b>
           </span>
-          <span className={classes.billprice}>Subtotal</span>
+          <span className={classes.totalprice}>
+            <b>400 SAR</b>
+          </span>
         </div>
-
-        {/* <QuantityPicker min={0} smoothy width='2rem' /> */}
+        {/* <QuantityPicker min={0} smoothy width='2rem' /> */}{" "}
         <div className={classes.button}>
+          {" "}
           <Button classbutton={classes.classbutton} button_name="PLACE ORDER" />
-        </div>
+        </div>{" "}
       </div>
     </div>
   );
