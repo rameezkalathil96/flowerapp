@@ -35,12 +35,13 @@ const Home = () => {
     { img: thirdimg, details: "Chamomile Box ", price: "120 SAR" },
   ];
   let bestprice = [
-    { img: fifthimg, details: "Soft Pink Box", price: "20 SAR" },
-    { img: fourthimg },
+    { img: fourthimg, details: "Soft Pink Box", price: "20 SAR" },
+    { img: fifthimg },
   ];
 
   return (
     <>
+    <div className={classes.container}>
       <div className={classes.content}>
         <div className={classes.top}>
           <b>
@@ -83,16 +84,14 @@ const Home = () => {
 
         <div className={classes.bsttxt}> Best price</div>
         <div className={classes.bstpricedisplay}>
-        {bestprice.map((item) => (
-          <Bstpricecard
-            img={item.img}
-            details={item.details}
-            price={item.price}
-          />
-        ))}
-      </div>
-      
-        <Bstpricecard />
+          {bestprice.map((item) => (
+            <Bstpricecard
+              img={item.img}
+              details={item.details}
+              price={item.price}
+            />
+          ))}
+        </div>
       </div>
       <div className={classes.footer}>
         <span className={classes.icons}>
@@ -108,6 +107,7 @@ const Home = () => {
           <GoThreeBars />
           &emsp;&emsp;
         </span>
+        </div>
       </div>
     </>
   );
